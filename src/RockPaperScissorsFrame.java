@@ -19,6 +19,7 @@ public class RockPaperScissorsFrame extends JFrame {
     ImageIcon rockImg;
     ImageIcon paperImg;
     ImageIcon scissorsImg;
+    ImageIcon quitImg;
 
     JLabel playerWinsL;
     JLabel computerWinsL;
@@ -75,11 +76,12 @@ public class RockPaperScissorsFrame extends JFrame {
         rockImg = new ImageIcon("src/rockIMG.png");
         paperImg = new ImageIcon("src/paperIMG.png");
         scissorsImg = new ImageIcon("src/scissorsIMG.png");
+        quitImg = new ImageIcon("src/quitIMG.png");
 
         rockBtn = new JButton(rockImg);
         paperBtn = new JButton(paperImg);
         scissorsBtn = new JButton(scissorsImg);
-        quitBtn = new JButton("Quit");
+        quitBtn = new JButton(quitImg);
 
         decidePnl.add(rockBtn);
         decidePnl.add(paperBtn);

@@ -106,7 +106,6 @@ public class RockPaperScissorsFrame extends JFrame {
         quitBtn.addActionListener((ActionEvent ae) -> System.exit(0));
     }
 
-
     private void createStatsPnl() {
         statsPnl = new JPanel();
 
@@ -120,7 +119,6 @@ public class RockPaperScissorsFrame extends JFrame {
 
         statsTF = new JTextField(15);
     }
-
 
     private void createWinnerPnl() {
         winnerPnl = new JPanel();
